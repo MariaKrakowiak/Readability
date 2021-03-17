@@ -8,9 +8,15 @@ Take a look at different ages and corresponding scores in the table in this arti
 
 The first algorithm is Flesch–Kincaid readability tests. First, you need to create a method that calculates a number of syllables in a word. The formula is given below. You can find more information here. You can use the second formula to calculate the index; it allows you to easily calculate the age of a person using the same table from the Automated Readability Index.
 
+![image](https://user-images.githubusercontent.com/59764846/111525002-64560780-875d-11eb-97ef-16127b985e97.png)
+
 The second one is SMOG index. It stands for Simple Measure of Gobbledygook. To calculate it, you need to count the number of polysyllables which is the number of words with more than 2 syllables. The formula is shown below. You can find out more here. The Wikipedia page says that at least 30 sentences are required for this index to work properly. Don't pay attention to this, just keep it in mind when you use this index in real life. As in the previous example, the grade level is calculated here, so to get the age of a person you need to use the table from the first link.
 
+![image](https://user-images.githubusercontent.com/59764846/111525042-6f109c80-875d-11eb-9850-fb84e342a5d3.png)
+
 The next one is Coleman–Liau index. The formula is given below. For more information read this. L is the average number of characters per 100 words and S is the average number of sentences per 100 words. Like all other indices, the output is a person's grade level. Like all other indices, the result is a minimum grade level required to understand this text.
+
+![image](https://user-images.githubusercontent.com/59764846/111525095-7d5eb880-875d-11eb-8368-68469ad783bc.png)
 
 So, in this stage, you should program all three approaches. Don't forget about the Automated readability index! Also, there should be an option to choose all methods at the same time.
 
