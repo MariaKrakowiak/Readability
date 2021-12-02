@@ -1,6 +1,7 @@
-# Readability
+# Readability Score
 
-# Description
+## Description
+
 In this stage, you should implement various other scientific approaches to calculate a readability score.
 
 Take a look at different ages and corresponding scores in the table in this article. This table is suitable for all the algorithms described in this stage. To calculate the age use the upper bound of the range. For example, if the range is 12-13-year-olds then it's upper bound is 13-year-olds.
