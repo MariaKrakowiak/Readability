@@ -15,7 +15,8 @@ The second one is SMOG index. It stands for Simple Measure of Gobbledygook. To c
 
 The next one is Coleman–Liau index. The formula is given below. For more information read this. L is the average number of characters per 100 words and S is the average number of sentences per 100 words. Like all other indices, the output is a person's grade level. Like all other indices, the result is a minimum grade level required to understand this text.
 
-score = 0.0588 * L - 0.296 * S - 15.8score=0.0588∗L−0.296∗S−15.8
+![image](https://user-images.githubusercontent.com/59764846/144375637-2a221365-2f3c-4fce-811a-9f637094ab09.PNG)
+
 So, in this stage, you should program all three approaches. Don't forget about the Automated readability index! Also, there should be an option to choose all methods at the same time.
 
 To count the number of syllables you should use letters a, e, i, o, u, y as vowels. You can see here examples and intricacies with determining vowels in a word with 100% accuracy. So, let's use the following 4 rules:
