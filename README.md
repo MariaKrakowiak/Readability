@@ -11,6 +11,7 @@ The first algorithm is Flesch–Kincaid readability tests. First, you need to cr
 
 The second one is SMOG index. It stands for Simple Measure of Gobbledygook. To calculate it, you need to count the number of polysyllables which is the number of words with more than 2 syllables. The formula is shown below. You can find out more here. The Wikipedia page says that at least 30 sentences are required for this index to work properly. Don't pay attention to this, just keep it in mind when you use this index in real life. As in the previous example, the grade level is calculated here, so to get the age of a person you need to use the table from the first link.
 
+![image](https://user-images.githubusercontent.com/59764846/144375237-abc59549-a7fc-4d41-8e7f-d9d046f3fcf6.PNG)
 
 The next one is Coleman–Liau index. The formula is given below. For more information read this. L is the average number of characters per 100 words and S is the average number of sentences per 100 words. Like all other indices, the output is a person's grade level. Like all other indices, the result is a minimum grade level required to understand this text.
 
